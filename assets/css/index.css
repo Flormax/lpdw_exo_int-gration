@@ -115,7 +115,7 @@ body{
   padding: 20px;
 }
 
-.boutique{
+.sidebar-boutique{
   border-style: solid;
   border-width: 2px;
   border-color: #1FBED6;
@@ -123,7 +123,7 @@ body{
   padding-bottom: 30px;
 }
 
-.boutique figcaption{
+.sidebar-boutique figcaption{
   color: #1FBED6;
   top: 92%;
 }
@@ -139,7 +139,7 @@ article{
   float: left;
 }
 
-.article-header hr{
+.article--header hr{
   width: 28%;
   text-align: left;
   margin: 0;
@@ -147,17 +147,17 @@ article{
   background-color: black;
 }
 
-.article-menu--list{
+.article--nav--list{
   padding-left: 0;
 }
 
-.article-header a:link, .article-header a:visited {
+.article--header a:link, .article-header a:visited {
   color: #1FBED6;
   font-size: 1.2em;
   font-weight: bold;
 }
 
-.article-section{
+.article--section{
   overflow: auto;
 }
 
@@ -180,7 +180,7 @@ article{
   margin-top: 10px;
 }
 
-.horaires th{
+.tab-horaires th{
   display: none;
 }
 
@@ -195,11 +195,11 @@ p.bandeau{
     padding: 2%;
 }
 
-.tarifs{
+.tab-tarifs{
   width: 100%;
 }
 
-.tarifs td{
+.tab-tarifs td{
   padding: 1%;
   border-bottom: 1px;
   border-bottom-width:1px;
@@ -207,11 +207,11 @@ p.bandeau{
   border-color: rgba(0, 0, 0, 0.08);
 }
 
-.tarifs th{
+.tab-tarifs th{
   padding: 1%;
 }
 
-.tarifs--data{
+.tab-tarifs-data{
   text-align: center;
 }
 
@@ -222,12 +222,10 @@ p.bandeau{
 main{
   margin-top: 20px;
   padding-left: 20px;
-  border-style: solid;
-  border-width: 1px;
   overflow: auto;
 }
 
-.main-header{
+.header{
   margin: 5px;
   margin-top: 0px;
   height: 75px;
